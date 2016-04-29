@@ -8,4 +8,4 @@
 
 - 2016.04.29
 
-之前看官方 [Android Training](http://developer.android.com/training/index.html) 看到了 [Volley](http://developer.android.com/training/volley/index.html) 一节，于是最近，做公司项目需求之余，将 Volley 着重研究了下。更新了 StringRequest 的使用 Demo 和 JsonRequest 的使用 Demo。
+之前看官方 [Android Training](http://developer.android.com/training/index.html) 看到了 [Volley](http://developer.android.com/training/volley/index.html) 一节，于是最近，做公司项目需求之余，将 Volley 着重研究了下。更新了 StringRequest 的使用 Demo 和 JsonRequest 的使用 Demo。具体分析见博客 [ Android Volley 研究综述（一）](http://iamasoldier6.com/2016/04/27/Android-Volley-研究综述/)。
