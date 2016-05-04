@@ -4,7 +4,7 @@
 
 - 2016.05.04
 
-更新了 ImageRequest 的使用 Demo 。
+更新了 ImageRequest 的使用 Demo ，ImageLoader 的使用 Demo ，ImageLoaderCache 的使用 Demo。
 
 - 2016.04.29
 
