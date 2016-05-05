@@ -4,6 +4,10 @@
 
 - 2016.05.04
 
+关于 Volley 自定义 Request ，更新了 XMLRequest 的使用 Demo 。
+
+- 2016.05.04
+
 关于 Volley 加载网络图片，更新了 ImageRequest 的使用 Demo ，ImageLoader 的使用 Demo ，ImageLoaderCache 的使用 Demo 以及 NetworkImageView 的使用 Demo。具体分析见博客[ Android Volley 研究综述（二）](http://iamasoldier6.com/2016/05/03/Android-Volley-研究综述（二）/)。
 
 - 2016.04.29
