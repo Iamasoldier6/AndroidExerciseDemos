@@ -2,7 +2,7 @@
 
 ### 更新日志：
 
-- 2016.05.04
+- 2016.05.05
 
 关于 Volley 自定义 Request ，更新了 XMLRequest 的使用 Demo 。
 
