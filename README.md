@@ -4,15 +4,15 @@
 
 - 2016.05.05
 
-关于 Volley 自定义 Request ，更新了 XMLRequest 的使用 Demo 。
+关于 Volley 自定义 Request ，更新了 XMLRequest 的使用 Demo 和 GsonRequest 的使用 Demo。具体分析见博客[ Android Volley 研究综述（三）](http://iamasoldier6.com/2016/05/05/Android-Volley-研究综述（三）/)。
 
 - 2016.05.04
 
-关于 Volley 加载网络图片，更新了 ImageRequest 的使用 Demo ，ImageLoader 的使用 Demo ，ImageLoaderCache 的使用 Demo 以及 NetworkImageView 的使用 Demo。具体分析见博客[ Android Volley 研究综述（二）](http://iamasoldier6.com/2016/05/03/Android-Volley-研究综述（二）/)。
+关于 Volley 加载网络图片，更新了 ImageRequest 的使用 Demo ，ImageLoader 的使用 Demo ，ImageLoaderCache 的使用 Demo 以及 NetworkImageView 的使用 Demo。具体分析见博客[ Android Volley 研究综述（二）](http://iamasoldier6.com/2016/05/04/Android-Volley-研究综述（二）/)。
 
 - 2016.04.29
 
-之前看官方 [Android Training](http://developer.android.com/training/index.html) 看到了 [Volley](http://developer.android.com/training/volley/index.html) 一节，于是最近，做公司项目需求之余，将 Volley 着重研究了下。更新了 StringRequest 的使用 Demo 和 JsonRequest 的使用 Demo。具体分析见博客 [ Android Volley 研究综述（一）](http://iamasoldier6.com/2016/04/27/Android-Volley-研究综述/)。
+之前看官方 [Android Training](http://developer.android.com/training/index.html) 看到了 [Volley](http://developer.android.com/training/volley/index.html) 一节，于是最近，做公司项目需求之余，将 Volley 着重研究了下。更新了 StringRequest 的使用 Demo 和 JsonRequest 的使用 Demo。具体分析见博客 [ Android Volley 研究综述（一）](http://iamasoldier6.com/2016/04/30/Android-Volley-研究综述（一）/)。
 
 - 2016.04.20
 
