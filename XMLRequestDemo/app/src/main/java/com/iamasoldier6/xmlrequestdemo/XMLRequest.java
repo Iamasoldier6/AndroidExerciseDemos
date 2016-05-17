@@ -43,7 +43,7 @@ public class XMLRequest extends Request<XmlPullParser> {
         } catch (UnsupportedEncodingException e) {
             return Response.error(new ParseError(e));
         } catch (XmlPullParserException e) {
-            return Response.error(new ParseError(e));
+            return Response.error(new ParseError(e)); //
         }
     }
 
