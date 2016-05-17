@@ -13,7 +13,7 @@ public class BitmapCache implements ImageLoader.ImageCache {
     private LruCache<String, Bitmap> mCache;
 
     public BitmapCache() {
-        int maxSize = 1 * 1024 * 1024;
+        int maxSize = 1 * 1024 * 1024; // 1M
         mCache = new LruCache<String, Bitmap>(maxSize) {
 
             @Override
