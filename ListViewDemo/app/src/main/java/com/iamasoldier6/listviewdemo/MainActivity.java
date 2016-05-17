@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
         FruitAdapter adapter = new FruitAdapter(MainActivity.this, R.layout.fruit_item, fruitList);
         ListView listView = (ListView) findViewById(R.id.list_view);
         listView.setAdapter(adapter);
-        listView.setSelection(10);
+//        listView.setSelection(10);
     }
 
     private void initFruits() {
