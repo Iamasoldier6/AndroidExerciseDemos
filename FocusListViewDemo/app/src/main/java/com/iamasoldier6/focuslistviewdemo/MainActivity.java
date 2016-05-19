@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
         data.add(" I am a cat 2");
         data.add(" I am a cat 3");
         data.add(" I am a cat 4");
-        data.add(" I am a cat 5");
+        data.add(" I am a cat 5"); //
 
         final FocusAdapter adapter = new FocusAdapter(this, data);
         listView.setAdapter(adapter);
