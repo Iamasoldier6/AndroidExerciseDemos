@@ -1,6 +1,10 @@
 # AndroidExerciseDemos
 
 ### 更新日志：
+- 2016.05.19
+
+更新了[ 徐宜生](https://github.com/xuyisheng)《 Android 群英传》中自动显示与隐藏布局 ListView 的使用 Demo ，即 ScroDisHidListViewDemo 。
+
 - 2016.05.18
 
 更新了[ 徐宜生](https://github.com/xuyisheng)《 Android 群英传》中动态修改 ListView 的使用 Demo ，即 AcModiListViewDemo ; 使 ListView 具有弹性的使用 Demo ，即 FlexListViewDemo 。
