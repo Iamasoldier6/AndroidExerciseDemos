@@ -16,7 +16,7 @@
 
 - 2016.05.17
 
-更新了郭霖《第一行代码》中 ListView 的使用 Demo 。
+更新了郭霖《第一行代码》中 ListView 的使用 Demo ，即 ListViewDemo 。
 
 - 2016.05.05
 
