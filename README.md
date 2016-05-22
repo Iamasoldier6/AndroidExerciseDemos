@@ -4,7 +4,7 @@
 
 - 2016.05.20
 
-更新了徐宜生《 Android 群英传》中 RecyclerView 的使用 Demo ，即 RecyclerViewDemo 。
+更新了徐宜生《 Android 群英传》中 RecyclerView 的使用 Demo ，即 RecyclerViewDemo ，具体分析见博客[ 从 ListView 到 RecyclerView 的用法浅析 ](http://iamasoldier6.com/2016/05/21/从-ListView-到-RecyclerView-的用法浅析/)。
 
 - 2016.05.19
 
@@ -16,7 +16,7 @@
 
 - 2016.05.17
 
-更新了郭霖《第一行代码》中 ListView 的使用 Demo ，即 ListViewDemo 。
+更新了郭霖《第一行代码》中 ListView 的使用 Demo ，即 ListViewDemo ，具体分析见博客[ 从 ListView 到 RecyclerView 的用法浅析 ](http://iamasoldier6.com/2016/05/21/从-ListView-到-RecyclerView-的用法浅析/)。
 
 - 2016.05.05
 
