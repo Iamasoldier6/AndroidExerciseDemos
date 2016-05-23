@@ -2,6 +2,10 @@
 
 ### 更新日志：
 
+- 2016.05.23
+
+更新了徐宜生《 Android 群英传》中 Android Scroll 分析章节的简易滑动 Demo ，即 DragViewDemo 。
+
 - 2016.05.20
 
 更新了徐宜生《 Android 群英传》中 RecyclerView 的使用 Demo ，即 RecyclerViewDemo ，具体分析见博客[ 从 ListView 到 RecyclerView 的用法浅析 ](http://iamasoldier6.com/2016/05/21/从-ListView-到-RecyclerView-的用法浅析/)。
