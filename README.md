@@ -12,11 +12,17 @@
 
 - 2016.05.19
 
-更新了徐宜生《 Android 群英传》中自动显示与隐藏布局 ListView 的使用 Demo ，即 ScroDisHidListViewDemo ，需要在真机上运行，模拟器体现不出效果；模仿微信聊天布局 ListView 的使用 Demo ，即 ChatListViewDemo ；动态改变点击 Item 布局的 ListView 使用 Demo ，即 FocusListViewDemo 。
+更新了徐宜生《 Android 群英传》中自动显示与隐藏布局 ListView 的使用 Demo ，即 ScroDisHidListViewDemo ，需要在真机上运行，模拟器体现不出效果；
+
+模仿微信聊天布局 ListView 的使用 Demo ，即 ChatListViewDemo ；
+
+动态改变点击 Item 布局的 ListView 使用 Demo ，即 FocusListViewDemo 。
 
 - 2016.05.18
 
-更新了[ 徐宜生](https://github.com/xuyisheng)《 Android 群英传》中动态修改 ListView 的使用 Demo ，即 AcModiListViewDemo ; 使 ListView 具有弹性的使用 Demo ，即 FlexListViewDemo 。
+更新了[ 徐宜生](https://github.com/xuyisheng)《 Android 群英传》中动态修改 ListView 的使用 Demo ，即 AcModiListViewDemo ; 
+
+使 ListView 具有弹性的使用 Demo ，即 FlexListViewDemo 。
 
 - 2016.05.17
 
