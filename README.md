@@ -1,6 +1,9 @@
 # AndroidExerciseDemos
 
 ### 更新日志：
+- 2016.06.02
+
+临睡前完成了徐宜生《 Android 群英传》中 View 的测量 Demo ，即 ViewMeasureDemo 。
 
 - 2016.05.23
 
