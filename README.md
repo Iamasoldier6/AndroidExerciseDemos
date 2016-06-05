@@ -1,6 +1,10 @@
 # AndroidExerciseDemos
 
 ### 更新日志：
+- 2016.06.05
+
+更新了徐宜生《 Android 群英传》中 自定义 View 一节对现有控件进行拓展的 Demo ，即 CusTextViewDemo 。
+
 - 2016.06.02
 
 临睡前完成了徐宜生《 Android 群英传》中 View 的测量 Demo ，即 ViewMeasureDemo 。
