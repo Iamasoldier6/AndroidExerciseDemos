@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    tools:context="com.iamasoldier6.topbardemo.MainActivity">
+
+    <com.iamasoldier6.topbardemo.TopBar
+        android:id="@+id/topBar"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        custom:atitle="自定义标题"
+        custom:atitleTextColor="#123412"
+        custom:leftBackground="@drawable/blue_button"
+        custom:leftText="Back"
+        custom:leftTextColor="#FFFFFF"
+        custom:rightBackground="@drawable/blue_button"
+        custom:rightText="More"
+        custom:rightTextColor="#FFFFFF"
+        custom:titleTextSize="5sp"/>
+
+</RelativeLayout>
