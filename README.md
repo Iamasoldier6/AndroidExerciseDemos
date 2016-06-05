@@ -3,7 +3,8 @@
 ### 更新日志：
 - 2016.06.05
 
-更新了徐宜生《 Android 群英传》中 自定义 View 一节对现有控件进行拓展的 Demo ，即 CusTextViewDemo 。
+更新了徐宜生《 Android 群英传》中 自定义 View 一节对现有控件进行拓展的 Demo ，即 CusTextViewDemo ;
+动态的文字闪动效果 Demo ，即 ShiTextViewDemo 。
 
 - 2016.06.02
 
