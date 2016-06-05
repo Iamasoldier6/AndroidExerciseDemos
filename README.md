@@ -4,7 +4,11 @@
 - 2016.06.05
 
 更新了徐宜生《 Android 群英传》中 自定义 View 一节对现有控件进行拓展的 Demo ，即 CusTextViewDemo ;
-动态的文字闪动效果 Demo ，即 ShiTextViewDemo 。
+
+动态的文字闪动效果 Demo ，即 ShiTextViewDemo ;
+
+创建复合控件，生成固定 UI 模版的 Demo , 即 TopBarDemo 。
+(`注：1.布局文件自定义部分以 custom 为开头；2.由于 AS 和 API 更新等的缘故，按照书上所做，会提示 Attribute "title" and "titleTextColor" has already been defined , 那就在定义 attrs.xml 文件时重新命名这两个，如改成 "atitle" 和 "atitleTextColor" ，相应用到的地方亦作修改，可以解决 bug ，且不影响最终结果。`)
 
 - 2016.06.02
 
