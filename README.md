@@ -1,6 +1,11 @@
 # AndroidExerciseDemos
 
 ### 更新日志：
+
+- 2016.06.06
+
+更新了徐宜生《 Android 群英传》中弧线展示图 Demo ，即 CirProViewDemo 。
+
 - 2016.06.05
 
 更新了徐宜生《 Android 群英传》中 自定义 View 一节对现有控件进行拓展的 Demo ，即 CusTextViewDemo ;
