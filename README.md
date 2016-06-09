@@ -4,7 +4,9 @@
 
 - 2016.06.09
 
-更新了徐宜生《 Android 群英传》中，实现类似在 PC 中某些音乐播放器上根据音量大小显示的音频条形图 Demo ，即 VolumeViewDemo 。
+更新了徐宜生《 Android 群英传》中，实现类似在 PC 中某些音乐播放器上根据音量大小显示的音频条形图 Demo ，即 VolumeViewDemo ;
+
+实现一个类似 Android 原生控件 ScrollView 的自定义 ViewGroup Demo ，即 CusScrollViewDemo 。
 
 - 2016.06.06
 
