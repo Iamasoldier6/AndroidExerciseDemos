@@ -2,6 +2,10 @@
 
 ### 更新日志：
 
+- 2016.06.09
+
+更新了徐宜生《 Android 群英传》中，实现类似在 PC 中某些音乐播放器上根据音量大小显示的音频条形图 Demo ，即 VolumeViewDemo 。
+
 - 2016.06.06
 
 更新了徐宜生《 Android 群英传》中弧线展示图 Demo ，即 CirProViewDemo 。
