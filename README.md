@@ -12,6 +12,8 @@
             builder.setSmallIcon(R.drawable.ic_launcher);
             Notification notification = builder.getNotification();
             manager.notify(R.drawable.ic_launcher, notification);`)
+ 
+使用 ViewDragHelper 的仿 QQ 侧滑菜单的 Demo ，即 QQDragDemo 。
 
 - 2016.06.09
 
