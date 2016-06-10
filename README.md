@@ -15,7 +15,9 @@
  
 使用 ViewDragHelper 的仿 QQ 侧滑菜单的 Demo ，即 QQDragDemo ;
 
-一些简单的视图动画 Demo ，即 ViewAnimDemo 。
+一些简单的视图动画 Demo ，即 ViewAnimDemo ;
+
+自定义动画，模拟电视机关闭的效果和类似推门的 3D 动画效果，即 CustomAnimDemo 。
 
 - 2016.06.09
 
