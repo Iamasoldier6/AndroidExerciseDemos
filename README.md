@@ -6,6 +6,8 @@
 
 更新了徐宜生《 Android 群英传》中绘制半圆的 SVG 图形 Demo ，即 HalfCirSvgDemo ；
 
+点击图像，两条横线 “二” 从中间折断并向中间折起，形成 “X” 的线图动画 Demo ，即 LineAnimSvgDemo 。
+
 - 2016.06.10
 
 更新了徐宜生《 Android 群英传》中使用 Bmob 创建移动后端服务的 Demo ，即 BmobSerDemo 。(`注：1.建议仍然使用书上 Demo 提供的 SDK ，去官网下载的最新 SDK 使用时，报“java.lang.UnsatisfiedLinkError”，并且不好解决；2.使用真机运行，模拟器运行报异常；3.使用自己创建应用时的 Application ID ，并且 AndroidManifest.xml 文件需配置好；4.测试应用，如 "name" 和 "feedback" 栏分别输入 "zebron" 和 “good” ，依次测试就好；4.设置 Notification 相关属性下面的代码，官方已弃用，使用新代码代替，即`
