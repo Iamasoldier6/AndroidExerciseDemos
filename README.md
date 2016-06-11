@@ -6,7 +6,9 @@
 
 更新了徐宜生《 Android 群英传》中绘制半圆的 SVG 图形 Demo ，即 HalfCirSvgDemo ；
 
-点击图像，两条横线 “二” 从中间折断并向中间折起，形成 “X” 的线图动画 Demo ，即 LineAnimSvgDemo 。
+点击图像，两条横线 “二” 从中间折断并向中间折起，形成 “X” 的线图动画 Demo ，即 LineAnimSvgDemo ;
+
+模拟地、月、日三个星体绕行轨迹的三球仪 Demo ，即 ThreeBallSvgDemo 。
 
 - 2016.06.10
 
