@@ -10,7 +10,9 @@
 
 模拟地、月、日三个星体绕行轨迹的三球仪 Demo ，即 ThreeBallSvgDemo ；
 
-绘制搜索框中一个放大镜的轨迹动画 Demo ，即 SearchBarSvgDemo 。
+绘制搜索框中一个放大镜的轨迹动画 Demo ，即 SearchBarSvgDemo ;
+
+点击小红点，弹出菜单的灵动菜单 Demo ，即 PopMenuAnimDemo 。
 
 - 2016.06.10
 
