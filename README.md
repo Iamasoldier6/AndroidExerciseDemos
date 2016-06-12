@@ -6,7 +6,9 @@
 
 更新了徐宜生《 Android 群英传》中计时器动画 Demo ，即 TimerAnimDemo ；
 
-下拉展开动画 Demo ，即 PullDownAnimDemo 。
+下拉展开动画 Demo ，即 PullDownAnimDemo ;
+
+仪表盘绘制 Demo ，即 ClockCanvasDemo 。
 
 - 2016.06.11
 
