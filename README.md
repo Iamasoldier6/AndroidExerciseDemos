@@ -8,7 +8,9 @@
 
 下拉展开动画 Demo ，即 PullDownAnimDemo ;
 
-仪表盘绘制 Demo ，即 ClockCanvasDemo 。
+仪表盘绘制 Demo ，即 ClockCanvasDemo ；
+
+初识 Layer 图层 Demo 。
 
 - 2016.06.11
 
