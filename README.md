@@ -2,6 +2,10 @@
 
 ### 更新日志：
 
+- 2016.06.12
+
+更新了徐宜生《 Android 群英传》中计时器动画 Demo ，即 TimerAnimDemo 。
+
 - 2016.06.11
 
 更新了徐宜生《 Android 群英传》中绘制半圆的 SVG 图形 Demo ，即 HalfCirSvgDemo ；
