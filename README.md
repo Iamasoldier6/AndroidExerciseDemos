@@ -2,6 +2,10 @@
 
 ### 更新日志：
 
+- 2016.06.13
+
+通过滑动 SeekBar ，实时修改图像色调、饱和度、亮度的 Demo ，即 SBarColorDemo 。
+
 - 2016.06.12
 
 更新了徐宜生《 Android 群英传》中计时器动画 Demo ，即 TimerAnimDemo ；
