@@ -4,7 +4,9 @@
 
 - 2016.06.14
 
-更新了徐宜生《 Android 群英传》中模拟一个 4 * 5 的颜色矩阵 Demo ，即 SimuColorMatrixDemo 。
+更新了徐宜生《 Android 群英传》中模拟一个 4 * 5 的颜色矩阵 Demo ，即 SimuColorMatrixDemo ；
+
+常用图像像素点处理效果的 Demo ，即 PixelsEffectDemo 。
 
 - 2016.06.13
 
