@@ -2,9 +2,13 @@
 
 ### 更新日志：
 
+- 2016.06.14
+
+更新了徐宜生《 Android 群英传》中模拟一个 4 * 5 的颜色矩阵 Demo ，即 SimuColorMatrixDemo 。
+
 - 2016.06.13
 
-通过滑动 SeekBar ，实时修改图像色调、饱和度、亮度的 Demo ，即 SBarColorDemo 。
+更新了徐宜生《 Android 群英传》中通过滑动 SeekBar ，实时修改图像色调、饱和度、亮度的 Demo ，即 SBarColorDemo 。
 
 - 2016.06.12
 
