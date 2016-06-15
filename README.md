@@ -6,7 +6,9 @@
 
 更新了徐宜生《 Android 群英传》中图形特效处理的 Demo ，即 ImagMatrixDemo ；
 
-使图片实现旗帜飞扬效果的 Demo ，即 FlagBitmapDemo 。
+使图片实现旗帜飞扬效果的 Demo ，即 FlagBitmapDemo ；
+
+画笔特效处理的刮刮卡效果 Demo ，即 ScratchCardDemo 。
 
 - 2016.06.14
 
