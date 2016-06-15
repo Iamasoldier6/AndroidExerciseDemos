@@ -12,7 +12,9 @@
 
 实现渲染 TileMode 效果的 Demo ，即 RoundShaderDemo ；
 
-实现一个具有倒影效果的图片 Demo ，即 ReflectViewDemo 。
+实现一个具有倒影效果的图片 Demo ，即 ReflectViewDemo ；
+
+笔触效果绘制一个路径的 PathEffect Demo ，即 PathEffectDemo 。
 
 - 2016.06.14
 
