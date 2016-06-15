@@ -10,7 +10,9 @@
 
 画笔特效处理的刮刮卡效果 Demo ，即 ScratchCardDemo ；
 
-实现渲染 TileMode 效果的 Demo ，即 RoundShaderDemo 。
+实现渲染 TileMode 效果的 Demo ，即 RoundShaderDemo ；
+
+实现一个具有倒影效果的图片 Demo ，即 ReflectViewDemo 。
 
 - 2016.06.14
 
