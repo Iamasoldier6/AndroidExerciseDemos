@@ -14,7 +14,9 @@
 
 实现一个具有倒影效果的图片 Demo ，即 ReflectViewDemo ；
 
-笔触效果绘制一个路径的 PathEffect Demo ，即 PathEffectDemo 。
+笔触效果绘制一个路径的 PathEffect Demo ，即 PathEffectDemo ；
+
+使用 SurfaceView 绘制正弦曲线的 Demo ，即 SurfaceSinDemo 。
 
 - 2016.06.14
 
