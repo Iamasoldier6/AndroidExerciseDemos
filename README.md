@@ -8,7 +8,9 @@
 
 使图片实现旗帜飞扬效果的 Demo ，即 FlagBitmapDemo ；
 
-画笔特效处理的刮刮卡效果 Demo ，即 ScratchCardDemo 。
+画笔特效处理的刮刮卡效果 Demo ，即 ScratchCardDemo ；
+
+实现渲染 TileMode 效果的 Demo ，即 RoundShaderDemo 。
 
 - 2016.06.14
 
