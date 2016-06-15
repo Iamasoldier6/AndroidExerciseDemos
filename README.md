@@ -2,6 +2,10 @@
 
 ### 更新日志：
 
+- 2016.06.15
+
+更新了徐宜生《 Android 群英传》中图形特效处理的 Demo ，即 ImagMatrixDemo 。
+
 - 2016.06.14
 
 更新了徐宜生《 Android 群英传》中模拟一个 4 * 5 的颜色矩阵 Demo ，即 SimuColorMatrixDemo ；
