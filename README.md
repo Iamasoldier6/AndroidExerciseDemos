@@ -4,7 +4,9 @@
 
 - 2016.06.15
 
-更新了徐宜生《 Android 群英传》中图形特效处理的 Demo ，即 ImagMatrixDemo 。
+更新了徐宜生《 Android 群英传》中图形特效处理的 Demo ，即 ImagMatrixDemo ；
+
+使图片实现旗帜飞扬效果的 Demo ，即 FlagBitmapDemo 。
 
 - 2016.06.14
 
