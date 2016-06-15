@@ -16,7 +16,9 @@
 
 笔触效果绘制一个路径的 PathEffect Demo ，即 PathEffectDemo ；
 
-使用 SurfaceView 绘制正弦曲线的 Demo ，即 SurfaceSinDemo 。
+使用 SurfaceView 绘制正弦曲线的 Demo ，即 SurfaceSinDemo ；
+
+使用 SurfaceView 实现一个绘图板 Demo ，即 PaintBoardDemo 。
 
 - 2016.06.14
 
