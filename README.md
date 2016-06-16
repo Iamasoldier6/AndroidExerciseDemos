@@ -2,6 +2,10 @@
 
 ### 更新日志：
 
+- 2016.06.16
+
+更新了徐宜生《 Android 群英传》中裁剪效果 Demo ，即 ClipDemo 。
+
 - 2016.06.15
 
 更新了徐宜生《 Android 群英传》中图形特效处理的 Demo ，即 ImagMatrixDemo ；
