@@ -4,7 +4,9 @@
 
 - 2016.06.17
 
-更新了徐宜生《 Android 群英传》中 Activity 过渡动画 Demo ，即 ActivityTransiDemo 。
+更新了徐宜生《 Android 群英传》中 Activity 过渡动画 Demo ，即 ActivityTransiDemo ；
+
+视图状态改变显示动画效果的 Demo ，即 AnimSelecDemo 。
 
 - 2016.06.16
 
