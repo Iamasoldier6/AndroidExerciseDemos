@@ -2,6 +2,10 @@
 
 ### 更新日志：
 
+- 2016.06.17
+
+更新了徐宜生《 Android 群英传》中 Activity 过渡动画 Demo ，即 ActivityTransiDemo 。
+
 - 2016.06.16
 
 更新了徐宜生《 Android 群英传》中裁剪效果 Demo ，即 ClipDemo 。
