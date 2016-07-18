@@ -36,7 +36,7 @@ public class MainActivity extends AppCompatActivity {
         // 设置 Notification 的各种属性
         builder.setSmallIcon(R.drawable.ic_launcher);
         builder.setContentIntent(pendingIntent);
-        builder.setAutoCancel(true);
+        builder.setAutoCancel(true); // 系统提供的移除通知操作
         builder.setLargeIcon(BitmapFactory.decodeResource(
                 getResources(), R.drawable.ic_launcher));
         builder.setContentTitle("Basic Notifications");
