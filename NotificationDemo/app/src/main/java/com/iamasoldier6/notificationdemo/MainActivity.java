@@ -63,11 +63,11 @@ public class MainActivity extends AppCompatActivity {
                 R.layout.notification);
         contentView.setTextViewText(R.id.textView, "Show me when collapsed");
         Notification notification = builder.build();
-        notification.contentView = contentView;
+        notification.contentView = contentView; // 指定为正常状态下的视图
         // 通过 RemoteViews 来创建自定义的 Notification 视图
         RemoteViews expandedView = new RemoteViews(getPackageName(),
                 R.layout.notification_expanded);
-        notification.bigContentView = expandedView;
+        notification.bigContentView = expandedView; // 指定为展开时的视图
 
         NotificationManager notificationManager = (NotificationManager)
                 getSystemService(NOTIFICATION_SERVICE);
