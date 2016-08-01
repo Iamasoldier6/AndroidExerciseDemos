@@ -2,6 +2,10 @@
 
 ### 更新日志：
 
+- 2016.08.01
+
+更新了博客《 Android 事件传递机制研究综述(一)》的 Demo ，即 BlogEventDemo 。
+
 - 2016.06.17
 
 更新了徐宜生《 Android 群英传》中 Activity 过渡动画 Demo ，即 ActivityTransiDemo ；
