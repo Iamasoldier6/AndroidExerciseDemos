@@ -2,6 +2,10 @@
 
 ### 更新日志：
 
+- 2016.08.02
+
+更新了对话框 Demo ，即 DialogDemo 。
+
 - 2016.08.01
 
 更新了博客《 Android 事件传递机制研究综述(一)》的 Demo ，即 BlogEventDemo 。
