@@ -4,6 +4,10 @@
 
 - 2016.08.02
 
+更新了改进过的 Toast Demo ，将 Toast 的调用封装成为一个接口，避免多次操作，跟随着多次弹出 Toast 提示，优化用户体验，即 ToastImproDemo 。
+
+- 2016.08.02
+
 更新了对话框 Demo ，即 DialogDemo 。
 
 - 2016.08.01
