@@ -2,6 +2,10 @@
 
 ### 更新日志：
 
+- 2016.08.03
+
+更新了 ScrollDemo ，侧重比较了 scrollTo() 和 scrollBy() ，scrollTo() 方法是让 View 相对于初始位置滚动某段距离，scrollBy() 方法是让 View 相对于当前的位置滚动某段距离。
+
 - 2016.08.02
 
 更新了改进过的 Toast Demo ，将 Toast 的调用封装成为一个接口，避免多次操作，跟随着多次弹出 Toast 提示，优化用户体验，即 ToastImproDemo 。
