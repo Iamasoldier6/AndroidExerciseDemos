@@ -2,6 +2,10 @@
 
 ### 更新日志：
 
+- 2016.08.07
+
+更新了 Scroller 的 Demo ScrollerTest, 实现一个简易版的 ViewPager 。
+
 - 2016.08.03
 
 更新了 ScrollDemo ，侧重比较了 scrollTo() 和 scrollBy() ，scrollTo() 方法是让 View 相对于初始位置滚动某段距离，scrollBy() 方法是让 View 相对于当前的位置滚动某段距离。
