@@ -4,7 +4,7 @@
 
 - 2016.08.07
 
-更新了 Scroller 的 Demo ScrollerTest, 实现一个简易版的 ViewPager 。
+更新了 Scroller 的 Demo ScrollerTest ，实现一个简易版的 ViewPager 。
 
 - 2016.08.03
 
