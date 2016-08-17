@@ -4,7 +4,7 @@
 
 - 2016.08.17
 
-将 Repositories 中原单独的竖直上下滑动来切换界面的 IS-VerticalViewPager 控件迁移到该项目空间中，即新命名的 VerticalViewPagerDemo。
+将 Repositories 中原单独的竖直上下滑动来切换界面的 IS-VerticalViewPager 控件迁移到该项目空间中，即新命名的 VerticalViewPagerDemo（本项目空间中的 `IS-VerticalViewPager` 是空文件夹，Deprecated）。
 
 - 2016.08.07
 
