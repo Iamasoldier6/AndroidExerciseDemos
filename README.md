@@ -2,6 +2,10 @@
 
 ### 更新日志：
 
+- 2016.08.17
+
+将原单独的 Demo 控件迁移到该项目空间中，即之前的竖直上下滑动来切换界面的 IS-VerticalViewPager 。
+
 - 2016.08.07
 
 更新了 Scroller 的 Demo ScrollerTest ，实现一个简易版的 ViewPager 。
