@@ -32,7 +32,7 @@ public class VerticalViewPager extends ViewGroup {
     private int mScrollEnd;
 
     /**
-     * 记录移动时的Y
+     * 记录移动时的 Y
      */
     private int mLastY;
 
