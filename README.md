@@ -2,6 +2,10 @@
 
 ### 更新日志：
 
+- 2016.08.20
+
+更新了分析 LayoutInflater 原理的 LayoutInflaterDemo ，文章见郭霖的[ Android LayoutInflater 原理分析，带你一步步深入了解 View (一) ](http://blog.csdn.net/guolin_blog/article/details/12921889) 。
+
 - 2016.08.18
 
 更新自定义图片轮播控件，类似淘宝客户端中图片滚动播放器的效果，即 PicAutoSlideDemo（不过图片滚动到最后一张时，是迅速地回滚到第一张图片，再从头开始滚动。视觉体验差一些，`待优化`）。
