@@ -4,9 +4,12 @@
 
 - 2016.08.21
 
-更新了简易布局 SimpleLayoutDemo ，自定义一个布局，深刻地理解 onLayout() 的过程，文章见郭霖的[  Android视图绘制流程完全解析，带你一步步深入了解View(二) ](http://blog.csdn.net/guolin_blog/article/details/16330267) ；
+更新了简易布局 SimpleLayoutDemo ，自定义一个布局，深刻地理解 onLayout() 的过程，文章见郭霖的[ Android 视图绘制流程完全解析，带你一步步深入了解 View (二) ](http://blog.csdn.net/guolin_blog/article/details/16330267) ；
 
-更新了简易绘制 CanvasDemo ，理解 Canvas 与 onDraw() 。
+更新了简易绘制 CanvasDemo ，理解 Canvas 与 onDraw() ；
+
+更新了简易的自定义计数器 CounterDemo ，文章见郭霖的[ Android 自定义 View 的实现方法，带你一步步深入了解 View (四)
+ ](http://blog.csdn.net/guolin_blog/article/details/17357967)；
 
 - 2016.08.20
 
