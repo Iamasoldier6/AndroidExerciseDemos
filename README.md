@@ -13,6 +13,8 @@
  
 更新了简易的组合控件，即自定义标题栏 CustomTitleDemo ；
 
+更新了继承控件 ExtendListViewDemo ，是对 ListView 的扩展，在 ListView 上滑动就可以显示出一个删除按钮，点击按钮就会删除相应的数据。
+
 - 2016.08.20
 
 更新了分析 LayoutInflater 原理的 LayoutInflaterDemo ，文章见郭霖的[ Android LayoutInflater 原理分析，带你一步步深入了解 View (一) ](http://blog.csdn.net/guolin_blog/article/details/12921889) 。
