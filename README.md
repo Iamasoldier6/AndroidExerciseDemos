@@ -10,6 +10,8 @@
 
 更新了简易的自定义计数器 CounterDemo ，文章见郭霖的[ Android 自定义 View 的实现方法，带你一步步深入了解 View (四)
  ](http://blog.csdn.net/guolin_blog/article/details/17357967)；
+ 
+更新了简易的组合控件，即自定义标题栏 CustomTitleDemo ；
 
 - 2016.08.20
 
