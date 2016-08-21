@@ -2,6 +2,10 @@
 
 ### 更新日志：
 
+- 2016.08.21
+
+更新了简易布局 SimpleLayoutDemo ，自定义一个布局，深刻地理解 onLayout() 的过程。
+
 - 2016.08.20
 
 更新了分析 LayoutInflater 原理的 LayoutInflaterDemo ，文章见郭霖的[ Android LayoutInflater 原理分析，带你一步步深入了解 View (一) ](http://blog.csdn.net/guolin_blog/article/details/12921889) 。
