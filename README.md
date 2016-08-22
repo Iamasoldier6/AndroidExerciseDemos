@@ -2,6 +2,10 @@
 
 ### 更新日志：
 
+- 2016.08.22
+
+更新圆环形进度更新圈，即 CusProgressCircle 。
+
 - 2016.08.21
 
 更新了简易布局 SimpleLayoutDemo ，自定义一个布局，深刻地理解 onLayout() 的过程，文章见郭霖的[ Android 视图绘制流程完全解析，带你一步步深入了解 View (二) ](http://blog.csdn.net/guolin_blog/article/details/16330267) ；
