@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <attr name="firstColor" format="color"/>
+    <attr name="secondColor" format="color"/>
+    <attr name="circleWidth" format="dimension"/>
+    <attr name="speed" format="integer"/>
+
+    <declare-styleable name="CusProgressCircle">
+        <attr name="firstColor"/>
+        <attr name="secondColor"/>
+        <attr name="circleWidth"/>
+        <attr name="speed"/>
+    </declare-styleable>
+</resources>
