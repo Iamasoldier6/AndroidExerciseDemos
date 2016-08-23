@@ -4,7 +4,7 @@
 
 - 2016.08.23
 
-更新了照片墙的实现 PictureWallDemo ，处理使得下载显示的图片不会 OOM 。
+更新了照片墙的实现 PictureWallDemo ，处理使得下载显示的图片不会 OOM （因下载图片来自 Google ，故实现该 Demo 需要科学上网）。
 
 - 2016.08.22
 
