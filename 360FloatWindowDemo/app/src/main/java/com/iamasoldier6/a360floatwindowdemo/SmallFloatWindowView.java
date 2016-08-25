@@ -106,7 +106,7 @@ public class SmallFloatWindowView extends LinearLayout {
                 Class<?> clazz = Class.forName("com.android.internal.R$dimen");
                 Object object = clazz.newInstance();
                 Field field = clazz.getField("status_bar_height");
-                int x = (Integer) field.get(0);
+                int x = (Integer) field.get(object);
                 statusBarHeight = getResources().getDimensionPixelSize(x);
             } catch (Exception e) {
                 e.printStackTrace();
