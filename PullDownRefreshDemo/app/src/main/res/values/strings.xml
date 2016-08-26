@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">PullDownRefreshDemo</string>
+    <string name="str_pull_down_refresh">下拉可以刷新</string>
+    <string name="str_release_refresh">释放立即刷新</string>
+    <string name="str_refresh_ing">正在刷新...</string>
+    <string name="str_not_updated_yet">暂未更新过</string>
+    <string name="str_updated_at">上次更新于%1$s前</string>
+    <string name="str_updated_just_now">刚刚更新</string>
+    <string name="str_time_error">时间有问题</string>
+</resources>
