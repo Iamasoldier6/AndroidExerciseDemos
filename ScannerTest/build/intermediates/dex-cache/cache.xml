@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/Iamasoldier6/AndroidExerciseDemos/ScannerTest/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="a75ac1d76d39105d8ecaa8dd91ea8ad0efe8a8fc">
+        <dex dex="/Users/Iamasoldier6/AndroidExerciseDemos/ScannerTest/app/build/intermediates/pre-dexed/debug/instant-run-bootstrap_a3812722c8efc85d64fc18124c3f01d83811cde8.jar" />
+    </item>
+    <item
+        jar="/Users/Iamasoldier6/Library/Android/sdk/extras/android/m2repository/com/android/support/support-v4/18.0.0/support-v4-18.0.0.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="44ec51e9d395a47aab135e5e1b556c0007442156">
+        <dex dex="/Users/Iamasoldier6/AndroidExerciseDemos/ScannerTest/app/build/intermediates/pre-dexed/debug/support-v4-18.0.0_378acee3ddfdabba352839477776305286bacc8f.jar" />
+    </item>
+    <item
+        jar="/Users/Iamasoldier6/AndroidExerciseDemos/ScannerTest/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="b869de68730e5b0c031a08babbfd6e47f444df2f">
+        <dex dex="/Users/Iamasoldier6/AndroidExerciseDemos/ScannerTest/app/build/intermediates/pre-dexed/debug/instant-run_c2ee2038291ba2c6587798d9b224eacb3f1a456c.jar" />
+    </item>
+
+</items>

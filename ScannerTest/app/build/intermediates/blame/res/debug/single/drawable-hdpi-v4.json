@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/Users/Iamasoldier6/AndroidExerciseDemos/ScannerTest/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/launcher_icon.png",
+        "source": "/Users/Iamasoldier6/AndroidExerciseDemos/ScannerTest/app/src/main/res/drawable-hdpi/launcher_icon.png"
+    },
+    {
+        "merged": "/Users/Iamasoldier6/AndroidExerciseDemos/ScannerTest/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/share_via_barcode.png",
+        "source": "/Users/Iamasoldier6/AndroidExerciseDemos/ScannerTest/app/src/main/res/drawable-hdpi/share_via_barcode.png"
+    },
+    {
+        "merged": "/Users/Iamasoldier6/AndroidExerciseDemos/ScannerTest/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/shopper_icon.png",
+        "source": "/Users/Iamasoldier6/AndroidExerciseDemos/ScannerTest/app/src/main/res/drawable-hdpi/shopper_icon.png"
+    }
+]
