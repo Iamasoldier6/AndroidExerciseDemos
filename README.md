@@ -20,7 +20,7 @@
 
 - 2016.08.23
 
-更新了照片墙的实现 PictureWallDemo ，处理使得下载显示的图片不会 OOM （因下载图片来自 Google ，故实现该 Demo 需要科学上网）。
+更新了照片墙的实现 PictureWallDemo ，拖动着，有时会出现 OOM ，待优化中。文章见郭霖的[ Android 照片墙应用实现，再多的图片也不怕崩溃 ](http://blog.csdn.net/guolin_blog/article/details/9526203) 。
 
 - 2016.08.22
 
