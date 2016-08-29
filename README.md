@@ -2,6 +2,11 @@
 
 ### 更新日志：
 
+- 2016.08.29
+
+更新了不规则排列的瀑布流照片墙的实现 FallsPicWallDemo ，顺畅不崩溃。文章见郭霖的[ Android 瀑布流照片墙实现，体验不规则排列的美感 ](http://blog.csdn.net/guolin_blog/article/details/10470797) 。
+
+
 - 2016.08.28
 
 使用 ZXing ，更新了扫描二维码功能的 ScannerTest 。
