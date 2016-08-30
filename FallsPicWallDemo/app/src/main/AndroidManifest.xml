@@ -18,6 +18,9 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
+
+        <!--2016.8.30新增-->
+        <activity android:name=".ImageDetailsActivity"></activity>
     </application>
 
 </manifest>

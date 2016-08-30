@@ -1,6 +1,7 @@
 package com.iamasoldier6.fallspicwalldemo;
 
 import android.content.Context;
+import android.content.Intent;
 import android.graphics.Bitmap;
 import android.os.AsyncTask;
 import android.os.Environment;
@@ -245,6 +246,16 @@ public class CusScrollView extends ScrollView implements View.OnTouchListener {
                 imageView.setScaleType(ImageView.ScaleType.FIT_XY);
                 imageView.setPadding(5, 5, 5, 5);
                 imageView.setTag(R.string.image_url, mImageUrl);
+                // 2016.8.30 新增点击事件
+                imageView.setOnClickListener(new OnClickListener() {
+
+                    @Override
+                    public void onClick(View v) {
+                        Intent intent = new Intent(getContext(), ImageDetailsActivity.class);
+                        intent.putExtra("image_path", getImagePath(mImageUrl));
+                        getContext().startActivity(intent);
+                    }
+                });
                 findColumnToAdd(imageView, imageHeight).addView(imageView);
                 imageViewList.add(imageView);
             }
