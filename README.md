@@ -2,6 +2,10 @@
 
 ### 更新日志：
 
+- 2016.08.30
+
+基于 8.29 的 FallsPicWallDemo ，新增 ZoomImageView 类，实现多点触控，自由地对图片缩放和移动。文章见郭霖的[ Android 多点触控技术实战，自由地对图片进行缩放和移动 ](http://blog.csdn.net/guolin_blog/article/details/11100327) 。
+
 - 2016.08.29
 
 更新了不规则排列的瀑布流照片墙的实现 FallsPicWallDemo ，顺畅不崩溃。文章见郭霖的[ Android 瀑布流照片墙实现，体验不规则排列的美感 ](http://blog.csdn.net/guolin_blog/article/details/10470797) 。
