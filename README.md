@@ -2,6 +2,25 @@
 
 ### 更新日志：
 
+- 2016.08.31
+
+复习 Service ，文章见郭霖的[ Android Service 完全解析，关于服务你所需知道的一切(上) ](http://blog.csdn.net/guolin_blog/article/details/10470797) ，更新了 ServiceDemo 。原文章里面创建前台 Service 的代码已遭废弃，更改为：
+
+```
+Notification.Builder builder = new Notification.Builder(this);
+Intent notificationIntent = new Intent(this, MainActivity.class);
+PendingIntent pendIntent = PendingIntent.getActivity(this, 0, notificationIntent, 0);
+builder.setContentIntent(pendIntent)
+       .setSmallIcon(R.mipmap.ic_launcher)
+       .setWhen(System.currentTimeMillis())
+       .setAutoCancel(false)
+       .setTicker("有通知到来")
+       .setContentTitle("这是通知的标题")
+       .setContentText("这是通知的内容");
+Notification notification = builder.build();
+startForeground(1, notification);
+```
+
 - 2016.08.30
 
 基于 8.29 的 FallsPicWallDemo ，新增 ZoomImageView 类，实现多点触控，自由地对图片缩放和移动。文章见郭霖的[ Android 多点触控技术实战，自由地对图片进行缩放和移动 ](http://blog.csdn.net/guolin_blog/article/details/11100327) 。
@@ -142,14 +161,16 @@
 
 - 2016.06.10
 
-更新了徐宜生《 Android 群英传》中使用 Bmob 创建移动后端服务的 Demo ，即 BmobSerDemo 。(`注：1.建议仍然使用书上 Demo 提供的 SDK ，去官网下载的最新 SDK 使用时，报“java.lang.UnsatisfiedLinkError”，并且不好解决；2.使用真机运行，模拟器运行报异常；3.使用自己创建应用时的 Application ID ，并且 AndroidManifest.xml 文件需配置好；4.测试应用，如 "name" 和 "feedback" 栏分别输入 "zebron" 和 “good” ，依次测试就好；4.设置 Notification 相关属性下面的代码，官方已弃用，使用新代码代替，即`
+更新了徐宜生《 Android 群英传》中使用 Bmob 创建移动后端服务的 Demo ，即 BmobSerDemo 。(`注：1.建议仍然使用书上 Demo 提供的 SDK ，去官网下载的最新 SDK 使用时，报“java.lang.UnsatisfiedLinkError”，并且不好解决；2.使用真机运行，模拟器运行报异常；3.使用自己创建应用时的 Application ID ，并且 AndroidManifest.xml 文件需配置好；4.测试应用，如 "name" 和 "feedback" 栏分别输入 "zebron" 和 “good” ，依次测试就好；4.设置 Notification 相关属性下面的代码，官方已弃用`），使用新代码代替，即
 
-`Notification.Builder builder = new Notification.Builder(context);
-            builder.setContentTitle("Bmob Test");
-            builder.setContentText(message);
-            builder.setSmallIcon(R.drawable.ic_launcher);
-            Notification notification = builder.getNotification();
-            manager.notify(R.drawable.ic_launcher, notification);`)
+```
+Notification.Builder builder = new Notification.Builder(context);
+builder.setContentTitle("Bmob Test");
+builder.setContentText(message);
+builder.setSmallIcon(R.drawable.ic_launcher);
+Notification notification = builder.getNotification();
+manager.notify(R.drawable.ic_launcher, notification);
+```
  
 使用 ViewDragHelper 的仿 QQ 侧滑菜单的 Demo ，即 QQDragDemo ;
 
