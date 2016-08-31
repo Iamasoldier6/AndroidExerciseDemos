@@ -20,6 +20,7 @@ builder.setContentIntent(pendIntent)
 Notification notification = builder.build();
 startForeground(1, notification);
 ```
+结合郭霖的另一篇文章[  Android Service 完全解析，关于服务你所需知道的一切(下) ](http://blog.csdn.net/guolin_blog/article/details/10470797) ，更新了 ClientTest ，综合 ServiceDemo 一起，实现不同应用程序间跨进程通信的功能（`有点小问题待处理优化`）。
 
 - 2016.08.30
 
