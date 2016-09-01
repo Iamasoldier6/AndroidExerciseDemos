@@ -2,6 +2,10 @@
 
 ### 更新日志：
 
+- 2016.09.01
+
+利用 Fragment ，更新了项目常用的 Tab 切换 FragTabDemo ，如一个主界面，其下面四个 Tab 页，互相切换，类似微信。
+
 - 2016.08.31
 
 复习 Service ，文章见郭霖的[ Android Service 完全解析，关于服务你所需知道的一切(上) ](http://blog.csdn.net/guolin_blog/article/details/10470797) ，更新了 ServiceDemo 。原文章里面创建前台 Service 的代码已遭废弃，更改为：
