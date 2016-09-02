@@ -85,12 +85,12 @@ public class MainActivity extends AppCompatActivity implements IUserLoginView {
 
     @Override
     public void toMainActivity(User user) {
-        Toast.makeText(this, user.getUsername() + " Login Success, To MainActivity",
+        Toast.makeText(this, user.getUsername() + " Login Success, To MainActivity!",
                 Toast.LENGTH_SHORT).show();
     }
 
     @Override
     public void showFailedError() {
-        Toast.makeText(this, "Login Failed", Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, "Login Failed!", Toast.LENGTH_SHORT).show();
     }
 }
