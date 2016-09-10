@@ -1,18 +1,19 @@
-package com.iamasoldier6.mvplogindemo;
+package com.iamasoldier6.mvplogindemo.view;
 
+import android.app.Activity;
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
 import android.view.View;
+import android.view.Window;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ProgressBar;
 import android.widget.Toast;
 
+import com.iamasoldier6.mvplogindemo.R;
 import com.iamasoldier6.mvplogindemo.model.bean.User;
 import com.iamasoldier6.mvplogindemo.presenter.UserLoginPresenter;
-import com.iamasoldier6.mvplogindemo.view.IUserLoginView;
 
-public class MainActivity extends AppCompatActivity implements IUserLoginView {
+public class MainActivity extends Activity implements IUserLoginView {
 
     private EditText usernameEdt;
     private EditText passwordEdt;
@@ -25,6 +26,7 @@ public class MainActivity extends AppCompatActivity implements IUserLoginView {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        requestWindowFeature(Window.FEATURE_NO_TITLE);
         setContentView(R.layout.activity_main);
         initView();
     }
@@ -84,9 +86,8 @@ public class MainActivity extends AppCompatActivity implements IUserLoginView {
     }
 
     @Override
-    public void toMainActivity(User user) {
-        Toast.makeText(this, user.getUsername() + " Login Success, To MainActivity!",
-                Toast.LENGTH_SHORT).show();
+    public void showSuccess(User user) {
+        Toast.makeText(this, "Login Success!", Toast.LENGTH_SHORT).show();
     }
 
     @Override

@@ -19,7 +19,7 @@ public interface IUserLoginView {
 
     void hideLoading();
 
-    void toMainActivity(User user);
+    void showSuccess(User user);
 
     void showFailedError();
 }

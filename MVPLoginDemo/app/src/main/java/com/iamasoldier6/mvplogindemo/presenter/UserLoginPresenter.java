@@ -33,7 +33,7 @@ public class UserLoginPresenter {
 
                     @Override
                     public void run() {
-                        userLoginView.toMainActivity(user);
+                        userLoginView.showSuccess(user);
                         userLoginView.hideLoading();
                     }
                 });
