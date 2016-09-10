@@ -2,6 +2,12 @@
 
 ### 更新日志：
 
+- 2016.09.10
+
+更新了博客《浅析 Android 中的三大模式：MVC , MVP 和 MVVM》中的 MVCLoginDemo 。
+
+MVPLoginDemo 见 `2016.09.02` 的更新日志。
+
 - 2016.09.06
 
 实现自定义的手势锁，可以指定 N * N 的锁点，锁的颜色变化和尝试解锁的次数等，即 CusGestureLockDemo 。
