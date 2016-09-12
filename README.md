@@ -2,6 +2,10 @@
 
 ### 更新日志：
 
+- 2016.09.12
+
+更新了类似微软小冰，智能问答式的图灵机器人 TulingRobotDemo ，需要在[图灵机器人](http://www.tuling123.com)官网注册后，选择创建自己的机器人，再从个人中心取得自己的APIkey 。
+
 - 2016.09.10
 
 更新了博客《浅析 Android 中的三大模式：MVC , MVP 和 MVVM》中的 MVCLoginDemo 。
