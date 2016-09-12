@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_user_chat_create_date"
+        style="@style/chat_date_style"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2012-09-01 18:30:21" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/ll_chat_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/iv_user_chat_avatar"
+                android:layout_width="49dp"
+                android:layout_height="49dp"
+                android:src="@drawable/user_avatar" />
+
+            <TextView
+                android:id="@+id/tv_user_chat_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="User"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_user_chat_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@id/ll_chat_icon"
+            android:background="@drawable/user_chat_message"
+            android:clickable="true"
+            android:focusable="true"
+            android:gravity="center_vertical"
+            android:lineSpacingExtra="2dp"
+            android:minHeight="50dp"
+            android:text="有事么..."
+            android:textColor="#000"
+            android:textSize="18sp" />
+
+    </RelativeLayout>
+
+</LinearLayout>
