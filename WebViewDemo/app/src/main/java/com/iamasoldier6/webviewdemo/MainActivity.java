@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private Button sendBtn;
     private Handler mHandler = new Handler();
 
-    private MediaPlayer mMediaPlayer;//音频
+    private MediaPlayer mMediaPlayer; // 音频
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -41,8 +41,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         mWebView.addJavascriptInterface(new DemoJavaScriptInterface(), "demo");
         mWebView.loadUrl("file:///android_asset/hello.html");
 
-        setVolumeControlStream(AudioManager.STREAM_MUSIC);//设置音频流 - STREAM_MUSIC：音乐回放即媒体音量
-        mMediaPlayer = MediaPlayer.create(this, R.raw.aaaass);//实例化 MediaPlayer 并添加音频
+        setVolumeControlStream(AudioManager.STREAM_MUSIC); // 设置音频流 - STREAM_MUSIC：音乐回放即媒体音量
+        mMediaPlayer = MediaPlayer.create(this, R.raw.aaaass); // 实例化 MediaPlayer 并添加音频
 
         mMediaPlayer.setOnCompletionListener(new MediaPlayer.OnCompletionListener() {
 
@@ -51,8 +51,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             }
         });
 
-        mMediaPlayer.start();//开始播放
-        mMediaPlayer.setLooping(true);//循环播放
+        mMediaPlayer.start(); // 开始播放
+        mMediaPlayer.setLooping(true); // 循环播放
     }
 
     final class DemoJavaScriptInterface {
