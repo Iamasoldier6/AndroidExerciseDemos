@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+    <data>
+        <variable name="contributor" type="com.iamasoldier6.mvpdatabinddemo.viewmodel.Contributor"/>
+    </data>
+
+    <LinearLayout
+        android:id="@+id/ll_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="true"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btn_get"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="get"
+            android:text="get"/>
+
+        <Button
+            android:id="@+id/btn_change"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="change"
+            android:text="change"/>
+
+        <TextView
+            android:id="@+id/tv_top_contributor"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@{contributor.login}"
+            android:textSize="30sp"/>
+
+    </LinearLayout>
+
+</layout>
