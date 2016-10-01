@@ -2,6 +2,10 @@
 
 ### 更新日志：
 
+- 2016.10.01
+
+继 `2016.09.10` 的日志，更新了博客《浅析 Android 中的三大模式：MVC , MVP 和 MVVM (二)》中的 MVVMGitHubDemo 。
+
 - 2016.09.30
 
 点击设定按钮，屏幕锁定黑屏，定时 5 秒后，自动解锁唤醒，点亮屏幕，更新了该 LockWakeScreenDemo 。
@@ -20,7 +24,7 @@
 
 - 2016.09.10
 
-更新了博客《浅析 Android 中的三大模式：MVC , MVP 和 MVVM》中的 MVCLoginDemo 。
+更新了博客《浅析 Android 中的三大模式：MVC , MVP 和 MVVM (一)》中的 MVCLoginDemo 。
 
 MVPLoginDemo 见 `2016.09.02` 的更新日志。
 
