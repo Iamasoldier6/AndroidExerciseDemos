@@ -4,7 +4,9 @@
 
 - 2016.10.01
 
-继 `2016.09.10` 的日志，更新了博客《浅析 Android 中的三大模式：MVC , MVP 和 MVVM (二)》中的 MVVMGitHubDemo 。
+继 `2016.09.10` 的日志，更新了博客《浅析 Android 中的三大模式：MVC , MVP 和 MVVM (二)》中的 MVVMGitHubDemo ；
+
+更新了 MVP + Data Binding 改进版的 MVPDataBindDemo 。
 
 - 2016.09.30
 
