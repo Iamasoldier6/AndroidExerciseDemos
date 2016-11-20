@@ -1,0 +1,16 @@
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <script type="text/javascript">
+    function javaCallJs(arg) {
+  		document.getElementById("message").innerHTML = (arg);
+	}
+
+    </script>
+</head>
+<body>
+<div id="message">Java端输入框输入内容，点击确定，此处显示该内容，则Java端调JS端的javaCallJs()方法成功</div>
+<input type="button" value="我是按钮，点击调用Java端方法"
+       onclick="window.Java.showAlert('出现此提示，则JS端调用Java端的showAlert()方法成功')"/>
+</body>
+</html>
