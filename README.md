@@ -2,6 +2,10 @@
 
 ### 更新日志：
 
+- 2016.11.29
+
+更新了简单应用社会化分享的 Demo ，参见[Mob](http://www.mob.com/#/)，即 AndroidShareDemo。
+
 - 2016.11.20
 
 更新了 WebView 中 Java 端和 JavaScript 端交互的 Demo，即 JavaAndJsCommunicateDemo。
