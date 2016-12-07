@@ -2,6 +2,10 @@
 
 ### 更新日志：
 
+- 2016.12.07
+
+更新了 RxJava + Retrofit 的简单 Demo，实现获取豆瓣电影 top250 的部分数据，并以文本形式展示出来，即 RxJavaRetrofitDemo。
+
 - 2016.11.29
 
 更新了简单应用社会化分享的 Demo ，参见[Mob](http://www.mob.com/#/)，即 AndroidShareDemo。
