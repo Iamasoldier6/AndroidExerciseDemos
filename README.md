@@ -4,7 +4,7 @@
 
 - 2016.12.07
 
-更新了 RxJava + Retrofit 的简单 Demo，实现获取豆瓣电影 top250 的部分数据，并以文本形式展示出来，即 RxJavaRetrofitDemo。
+更新了 RxJava + Retrofit 的简单 Demo，实现获取豆瓣电影 top250 的部分数据，并以文本形式展示出来，即 RxJavaRetrofitDemo，参见 [RxJava 与 Retrofit 结合的最佳实践](https://gank.io/post/56e80c2c677659311bed9841)。
 
 - 2016.11.29
 
