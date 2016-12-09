@@ -26,7 +26,7 @@ public class HttpMethods {
     private static final int DEFAULT_TIMEOUT = 5;
 
     private Retrofit retrofit;
-    private MovieService movieService;
+    private MovieService mService;
 
     // 私有化构造方法
     private HttpMethods() {
@@ -42,7 +42,7 @@ public class HttpMethods {
                 .baseUrl(BASE_URL)
                 .build();
 
-        movieService = retrofit.create(MovieService.class);
+        mService = retrofit.create(MovieService.class);
     }
 
     // 访问 HttpMethods 时创建单例
@@ -64,7 +64,7 @@ public class HttpMethods {
      */
     public void getTopMovie(Subscriber<List<Subject>> subscriber, int start, int count) {
 
-        Observable observable = movieService.getTopMovie(start, count)
+        Observable observable = mService.getTopMovie(start, count)
                 .map(new HttpResultFunc<List<Subject>>());
 
         toSubscribe(observable, subscriber);
