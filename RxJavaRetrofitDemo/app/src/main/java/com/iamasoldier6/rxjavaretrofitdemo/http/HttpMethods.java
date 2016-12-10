@@ -25,7 +25,7 @@ public class HttpMethods {
     public static final String BASE_URL = "https://api.douban.com/v2/movie/";
     private static final int DEFAULT_TIMEOUT = 5;
 
-    private Retrofit retrofit;
+    private Retrofit mRetrofit;
     private MovieService mService;
 
     // 私有化构造方法
@@ -35,14 +35,14 @@ public class HttpMethods {
         OkHttpClient.Builder builder = new OkHttpClient.Builder();
         builder.connectTimeout(DEFAULT_TIMEOUT, TimeUnit.SECONDS);
 
-        retrofit = new Retrofit.Builder()
+        mRetrofit = new Retrofit.Builder()
                 .client(builder.build())
                 .addConverterFactory(ResponseConvertFactory.create())
                 .addCallAdapterFactory(RxJavaCallAdapterFactory.create())
                 .baseUrl(BASE_URL)
                 .build();
 
-        mService = retrofit.create(MovieService.class);
+        mService = mRetrofit.create(MovieService.class);
     }
 
     // 访问 HttpMethods 时创建单例
