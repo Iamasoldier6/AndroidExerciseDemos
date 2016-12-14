@@ -17,12 +17,12 @@ import com.iamasoldier6.mvclogindemo.model.biz.UserBiz;
 
 public class MainActivity extends Activity {
 
-    private EditText usernameEdt;
-    private EditText passwordEdt;
-    private Button loginBtn;
-    private Button clearBtn;
-    private ProgressBar loadPb;
-    public IUserBiz userBiz;
+    private EditText mEtUsername;
+    private EditText mEtPassword;
+    private Button mBtnLogin;
+    private Button mBtnClear;
+    private ProgressBar mPbLoad;
+    public IUserBiz mUserBiz;
     private Handler mHandler = new Handler();
 
     @Override
@@ -30,18 +30,18 @@ public class MainActivity extends Activity {
         super.onCreate(savedInstanceState);
         requestWindowFeature(Window.FEATURE_NO_TITLE);
         setContentView(R.layout.activity_main);
-        this.userBiz = new UserBiz(); // 不要遗漏, 否则报空指针异常
+        this.mUserBiz = new UserBiz(); // 不要遗漏, 否则报空指针异常
         initView();
     }
 
     private void initView() {
-        usernameEdt = (EditText) findViewById(R.id.et_username);
-        passwordEdt = (EditText) findViewById(R.id.et_password);
-        clearBtn = (Button) findViewById(R.id.btn_clear);
-        loginBtn = (Button) findViewById(R.id.btn_login);
-        loadPb = (ProgressBar) findViewById(R.id.pb_load);
+        mEtUsername = (EditText) findViewById(R.id.et_username);
+        mEtPassword = (EditText) findViewById(R.id.et_password);
+        mBtnClear = (Button) findViewById(R.id.btn_clear);
+        mBtnLogin = (Button) findViewById(R.id.btn_login);
+        mPbLoad = (ProgressBar) findViewById(R.id.pb_load);
 
-        loginBtn.setOnClickListener(new View.OnClickListener() {
+        mBtnLogin.setOnClickListener(new View.OnClickListener() {
 
             @Override
             public void onClick(View v) {
@@ -49,7 +49,7 @@ public class MainActivity extends Activity {
             }
         });
 
-        clearBtn.setOnClickListener(new View.OnClickListener() {
+        mBtnClear.setOnClickListener(new View.OnClickListener() {
 
             @Override
             public void onClick(View v) {
@@ -60,7 +60,7 @@ public class MainActivity extends Activity {
 
     public void login() {
         showLoading();
-        userBiz.login(getUsername(), getPassword(), new OnLoginListener() {
+        mUserBiz.login(getUsername(), getPassword(), new OnLoginListener() {
 
             @Override
             public void loginSuccess(final User user) {
@@ -96,27 +96,27 @@ public class MainActivity extends Activity {
     }
 
     public String getUsername() {
-        return usernameEdt.getText().toString();
+        return mEtUsername.getText().toString();
     }
 
     public String getPassword() {
-        return passwordEdt.getText().toString();
+        return mEtPassword.getText().toString();
     }
 
     public void clearUsername() {
-        usernameEdt.setText("");
+        mEtUsername.setText("");
     }
 
     public void clearPassword() {
-        passwordEdt.setText("");
+        mEtPassword.setText("");
     }
 
     public void showLoading() {
-        loadPb.setVisibility(View.VISIBLE);
+        mPbLoad.setVisibility(View.VISIBLE);
     }
 
     public void hideLoading() {
-        loadPb.setVisibility(View.GONE);
+        mPbLoad.setVisibility(View.GONE);
     }
 
     public void showSuccess(User user) {

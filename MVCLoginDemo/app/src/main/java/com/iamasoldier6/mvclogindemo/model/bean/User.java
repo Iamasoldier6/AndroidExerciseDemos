@@ -5,7 +5,7 @@ package com.iamasoldier6.mvclogindemo.model.bean;
  */
 public class User {
 
-    private String username; //
+    private String username;
     private String password;
 
     public String getUsername() {
