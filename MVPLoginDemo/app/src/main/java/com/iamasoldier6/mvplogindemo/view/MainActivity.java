@@ -15,11 +15,11 @@ import com.iamasoldier6.mvplogindemo.presenter.UserLoginPresenter;
 
 public class MainActivity extends Activity implements IUserLoginView {
 
-    private EditText usernameEdt;
-    private EditText passwordEdt;
-    private Button loginBtn;
-    private Button clearBtn;
-    private ProgressBar loadPb;
+    private EditText mEtUsername;
+    private EditText mEtPassword;
+    private Button mBtnLogin;
+    private Button mBtnClear;
+    private ProgressBar mPbLoad;
 
     private UserLoginPresenter mUserLoginPresenter = new UserLoginPresenter(this);
 
@@ -32,13 +32,13 @@ public class MainActivity extends Activity implements IUserLoginView {
     }
 
     private void initView() {
-        usernameEdt = (EditText) findViewById(R.id.et_username);
-        passwordEdt = (EditText) findViewById(R.id.et_password);
-        clearBtn = (Button) findViewById(R.id.btn_clear);
-        loginBtn = (Button) findViewById(R.id.btn_login);
-        loadPb = (ProgressBar) findViewById(R.id.pb_load);
+        mEtUsername = (EditText) findViewById(R.id.et_username);
+        mEtPassword = (EditText) findViewById(R.id.et_password);
+        mBtnClear = (Button) findViewById(R.id.btn_clear);
+        mBtnLogin = (Button) findViewById(R.id.btn_login);
+        mPbLoad = (ProgressBar) findViewById(R.id.pb_load);
 
-        loginBtn.setOnClickListener(new View.OnClickListener() {
+        mBtnLogin.setOnClickListener(new View.OnClickListener() {
 
             @Override
             public void onClick(View v) {
@@ -46,7 +46,7 @@ public class MainActivity extends Activity implements IUserLoginView {
             }
         });
 
-        clearBtn.setOnClickListener(new View.OnClickListener() {
+        mBtnClear.setOnClickListener(new View.OnClickListener() {
 
             @Override
             public void onClick(View v) {
@@ -57,32 +57,32 @@ public class MainActivity extends Activity implements IUserLoginView {
 
     @Override
     public String getUsername() {
-        return usernameEdt.getText().toString();
+        return mEtUsername.getText().toString();
     }
 
     @Override
     public String getPassword() {
-        return passwordEdt.getText().toString();
+        return mEtPassword.getText().toString();
     }
 
     @Override
     public void clearUsername() {
-        usernameEdt.setText("");
+        mEtUsername.setText("");
     }
 
     @Override
     public void clearPassword() {
-        passwordEdt.setText("");
+        mEtPassword.setText("");
     }
 
     @Override
     public void showLoading() {
-        loadPb.setVisibility(View.VISIBLE);
+        mPbLoad.setVisibility(View.VISIBLE);
     }
 
     @Override
     public void hideLoading() {
-        loadPb.setVisibility(View.GONE);
+        mPbLoad.setVisibility(View.GONE);
     }
 
     @Override

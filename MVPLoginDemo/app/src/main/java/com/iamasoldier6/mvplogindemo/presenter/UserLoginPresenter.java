@@ -13,18 +13,18 @@ import com.iamasoldier6.mvplogindemo.view.IUserLoginView;
  */
 public class UserLoginPresenter {
 
-    private IUserBiz userBiz;
-    private IUserLoginView userLoginView;
+    private IUserBiz mUserBiz;
+    private IUserLoginView mUserLoginView;
     private Handler mHandler = new Handler();
 
     public UserLoginPresenter(IUserLoginView userLoginView) {
-        this.userLoginView = userLoginView;
-        this.userBiz = new UserBiz();
+        this.mUserLoginView = userLoginView;
+        this.mUserBiz = new UserBiz();
     }
 
     public void login() {
-        userLoginView.showLoading();
-        userBiz.login(userLoginView.getUsername(), userLoginView.getPassword(), new OnLoginListener() {
+        mUserLoginView.showLoading();
+        mUserBiz.login(mUserLoginView.getUsername(), mUserLoginView.getPassword(), new OnLoginListener() {
 
             @Override
             public void loginSuccess(final User user) {
@@ -33,8 +33,8 @@ public class UserLoginPresenter {
 
                     @Override
                     public void run() {
-                        userLoginView.showSuccess(user);
-                        userLoginView.hideLoading();
+                        mUserLoginView.showSuccess(user);
+                        mUserLoginView.hideLoading();
                     }
                 });
             }
@@ -46,8 +46,8 @@ public class UserLoginPresenter {
 
                     @Override
                     public void run() {
-                        userLoginView.showFailedError();
-                        userLoginView.hideLoading();
+                        mUserLoginView.showFailedError();
+                        mUserLoginView.hideLoading();
                     }
                 });
             }
@@ -55,7 +55,7 @@ public class UserLoginPresenter {
     }
 
     public void clear() {
-        userLoginView.clearUsername();
-        userLoginView.clearPassword();
+        mUserLoginView.clearUsername();
+        mUserLoginView.clearPassword();
     }
 }
