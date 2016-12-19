@@ -12,7 +12,7 @@
 
 - 2016.11.29
 
-更新了简单应用社会化分享的 Demo ，参见[Mob](http://www.mob.com/#/)，即 AndroidShareDemo。
+更新了简单应用社会化分享的 Demo ，参见 [Mob](http://www.mob.com/#/)，即 AndroidShareDemo。
 
 - 2016.11.20
 
