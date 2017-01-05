@@ -2,6 +2,10 @@
 
 ### 更新日志：
 
+- 2017.01.05
+
+在 2016.09.01 更新的 FragTabDemo 基础上，演变成简单的添加了 ViewPager 的 Demo，仿微信似地可手动滑动切换 Tab，即 FragTabViewPagerDemo。
+
 - 2016.12.10
 
 更新了 Dagger2 简单的使用 Demo，封装 Toast 注入到 BaseActivity 中，新建 Activity 继承自 BaseActivity，直接弹出提示 Toast，即 DaggerTwoDemo。
