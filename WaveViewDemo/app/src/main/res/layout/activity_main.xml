@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:wave="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.iamasoldier6.waveviewdemo.MainActivity">
+
+    <com.iamasoldier6.waveviewdemo.WaveView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:color="#6337B5"
+        wave:mode="triangle"
+        wave:waveCount="20"
+        wave:waveWidth="10"/>
+
+    <com.iamasoldier6.waveviewdemo.WaveView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:color="#6337B5"
+        wave:mode="circle"
+        wave:waveCount="20"
+        wave:waveWidth="10"/>
+</LinearLayout>
