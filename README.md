@@ -2,6 +2,10 @@
 
 ### 更新日志：
 
+- 2017.03.05
+
+复习自定义 View，学习 [Android 自定义 View (一)](http://blog.csdn.net/lmj623565791/article/details/24252901)，更新简单的自定义验证码 Demo，即 CustomAuthCodeView。
+
 - 2017.01.05
 
 在 2016.09.01 更新的 FragTabDemo 基础上，演变成简单的添加了 ViewPager 的 Demo，仿微信似地可手动滑动切换 Tab，即 FragTabViewPagerDemo。
