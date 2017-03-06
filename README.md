@@ -2,6 +2,10 @@
 
 ### 更新日志：
 
+- 2017.03.06
+
+更新简单的圆环进度 View，点击按钮随机调整进度，并显示百分比，即 PercentCircleViewDemo。
+
 - 2017.03.05
 
 复习自定义 View，学习 [Android 自定义 View (一)](http://blog.csdn.net/lmj623565791/article/details/24252901)，更新简单的自定义验证码 Demo，即 CustomAuthCodeView；
