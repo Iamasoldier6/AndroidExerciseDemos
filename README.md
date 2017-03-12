@@ -4,7 +4,9 @@
 
 - 2017.03.12
 
-学习[手把手带你画一个时尚仪表盘 Android 自定义 View ](http://blog.csdn.net/wingichoy/article/details/50468674)，更新 CarPanelViewDemo。
+学习[手把手带你画一个时尚仪表盘 Android 自定义 View](http://blog.csdn.net/wingichoy/article/details/50468674)，更新 CarPanelViewDemo；
+
+学习[手把手带你做一个超炫酷 loading 成功动画 view Android 自定义 view](http://blog.csdn.net/wingichoy/article/details/50482271)，更新 LoadSuccessViewDemo。
 
 - 2017.03.08
 
