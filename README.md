@@ -2,6 +2,10 @@
 
 ### 更新日志：
 
+- 2017.03.12
+
+学习[手把手带你画一个时尚仪表盘 Android 自定义 View ](http://blog.csdn.net/wingichoy/article/details/50468674)，更新 CarPanelViewDemo。
+
 - 2017.03.08
 
 更新简单的自定义坐标折线示意图，目前能显示，有点小问题待处理，即 FoldLineViewDemo。
