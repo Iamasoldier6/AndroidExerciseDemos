@@ -2,6 +2,12 @@
 
 ### 更新日志：
 
+- 2017.03.13
+
+更新简单的二阶贝塞尔曲线 Demo，即 QuadBezierLawDemo；
+
+更新使用二阶贝塞尔曲线原理、仿 360 清理内存的动画 Demo，即 Imitate360ViewDemo。
+
 - 2017.03.12
 
 学习[手把手带你画一个时尚仪表盘 Android 自定义 View](http://blog.csdn.net/wingichoy/article/details/50468674)，更新 CarPanelViewDemo；
