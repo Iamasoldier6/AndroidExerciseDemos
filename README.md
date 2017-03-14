@@ -2,6 +2,10 @@
 
 ### 更新日志：
 
+- 2017.03.14
+
+更新简单的运用二阶贝塞尔曲线原理的，仿 QQ 消息拖动提示小红点消失的 Demo，即 QqWipeOffViewDemo。
+
 - 2017.03.13
 
 更新简单的二阶贝塞尔曲线 Demo，即 QuadBezierLawDemo；
