@@ -2,6 +2,10 @@
 
 ### 更新日志：
 
+- 2017.03.15
+
+更新简单的原仿微信下拉出现眼睛的 Demo，即 WeChatEyeViewDemo。
+
 - 2017.03.14
 
 更新简单的运用二阶贝塞尔曲线原理的，仿 QQ 消息拖动提示小红点消失的 Demo，即 QqWipeOffViewDemo。
