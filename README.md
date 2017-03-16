@@ -2,6 +2,10 @@
 
 ### 更新日志：
 
+- 2017.03.16
+
+学习[手把手教你画一个 逼格满满圆形水波纹 loadingview Android](http://blog.csdn.net/wingichoy/article/details/50523713)，即 WaveLoadingViewDemo。
+
 - 2017.03.15
 
 更新简单的原仿微信下拉出现眼睛的 Demo，即 WeChatEyeViewDemo。
