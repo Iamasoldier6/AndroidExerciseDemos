@@ -35,6 +35,8 @@ public class WaveView extends View {
     private float mRadius;
     private int mColor;
 
+    private Paint mPaint;
+
     public WaveView(Context context) {
         this(context, null);
     }
@@ -45,6 +47,7 @@ public class WaveView extends View {
 
     public WaveView(Context context, AttributeSet attrs, int defStyleAttr) {
         super(context, attrs, defStyleAttr);
+        mPaint = new Paint();
         mContext = context;
         TypedArray typedArray = context.obtainStyledAttributes(attrs, R.styleable.WaveView, defStyleAttr, 0);
         mWaveCount = typedArray.getInt(R.styleable.WaveView_waveCount, 10);
@@ -82,13 +85,12 @@ public class WaveView extends View {
 
     @Override
     protected void onDraw(Canvas canvas) {
-        Paint paint = new Paint();
-        paint.setColor(mColor);
+        mPaint.setColor(mColor);
 
         mWaveHeight = mRectHeight / mWaveCount; // 计算三角形的高
         // 绘制矩形
         float padding = ((mWidth - mRectWidth) / 2);
-        canvas.drawRect(padding, padding, mRectWidth + padding, mRectHeight + padding, paint);
+        canvas.drawRect(padding, padding, mRectWidth + padding, mRectHeight + padding, mPaint);
 
         // 三角模式
         if (mMode == MODE_TRIANGLE) {
@@ -102,7 +104,7 @@ public class WaveView extends View {
                 path.lineTo(startX, startY + mWaveHeight * (i + 1));
             }
             path.close();
-            canvas.drawPath(path, paint);
+            canvas.drawPath(path, mPaint);
 
             // 绘制左边波浪
             startX = padding;
@@ -113,21 +115,21 @@ public class WaveView extends View {
                 path.lineTo(startX, startY + mWaveHeight * (i + 1));
             }
             path.close();
-            canvas.drawPath(path, paint);
+            canvas.drawPath(path, mPaint);
         } else {
             mRadius = mRectHeight / mWaveCount;
             // 绘制右边波浪
             float startX = padding + mRectWidth;
             float startY = padding;
             for (int i = 0; i < mWaveCount / 2; i++) {
-                canvas.drawCircle(startX, startY + i * mRadius * 2 + mRadius, mRadius, paint);
+                canvas.drawCircle(startX, startY + i * mRadius * 2 + mRadius, mRadius, mPaint);
             }
 
             // 绘制左边波浪
             startX = padding;
             startY = padding;
             for (int i = 0; i < mWaveCount / 2; i++) {
-                canvas.drawCircle(startX, startY + i * mRadius * 2 + mRadius, mRadius, paint);
+                canvas.drawCircle(startX, startY + i * mRadius * 2 + mRadius, mRadius, mPaint);
             }
         }
         super.onDraw(canvas);
