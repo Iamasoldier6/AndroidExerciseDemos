@@ -21,6 +21,7 @@ public class BubbleView extends View {
     private int mRectWidth;
     private int mRectHeight;
     private double mRectPercent = 0.8;
+    private Paint mPaint;
 
     public BubbleView(Context context) {
         this(context, null);
@@ -32,6 +33,7 @@ public class BubbleView extends View {
 
     public BubbleView(Context context, AttributeSet attrs, int defStyleAttr) {
         super(context, attrs, defStyleAttr);
+        mPaint = new Paint();
     }
 
     @Override
@@ -58,18 +60,17 @@ public class BubbleView extends View {
 
     @Override
     protected void onDraw(Canvas canvas) {
-        Paint paint = new Paint();
-        paint.setColor(Color.parseColor("#2C97DE"));
-        paint.setStyle(Paint.Style.FILL);
+        mPaint.setColor(Color.parseColor("#2C97DE"));
+        mPaint.setStyle(Paint.Style.FILL);
 
-        canvas.drawRoundRect(new RectF(0, 0, mRectWidth, mRectHeight), 10, 10, paint);
+        canvas.drawRoundRect(new RectF(0, 0, mRectWidth, mRectHeight), 10, 10, mPaint);
 
         Path path = new Path();
         path.moveTo(mRectWidth / 2 - 30, mRectHeight);
         path.lineTo(mRectWidth / 2, mRectHeight + 20);
         path.lineTo(mRectWidth / 2 + 30, mRectHeight);
         path.close();
-        canvas.drawPath(path, paint);
+        canvas.drawPath(path, mPaint);
 
         super.onDraw(canvas);
     }
