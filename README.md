@@ -2,6 +2,10 @@
 
 ### 更新日志：
 
+- 2017.03.19
+
+学习[恭喜发财！ -- 手把手教你仿造一个 qq 下拉抢红包 Android 自定义 view](http://blog.csdn.net/wingichoy/article/details/50662592)，更新 QQHongBaoViewDemo。
+
 - 2017.03.16
 
 学习[手把手教你画一个 逼格满满圆形水波纹 loadingview Android](http://blog.csdn.net/wingichoy/article/details/50523713)，即 WaveLoadingViewDemo。
