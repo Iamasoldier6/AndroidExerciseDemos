@@ -2,6 +2,10 @@
 
 ### 更新日志：
 
+- 2017.03.20
+
+学习[一个炫字都不够？？！！！手把手带你打造 3D 自定义 view ](http://blog.csdn.net/wingichoy/article/details/50590051)，更新 ThreeDViewDemo。自此，关于自定义 View 的复习完毕，是时候自定义一波高质量的自定义 View 了。
+
 - 2017.03.19
 
 学习[恭喜发财！ -- 手把手教你仿造一个 qq 下拉抢红包 Android 自定义 view](http://blog.csdn.net/wingichoy/article/details/50662592)，更新 QQHongBaoViewDemo。
