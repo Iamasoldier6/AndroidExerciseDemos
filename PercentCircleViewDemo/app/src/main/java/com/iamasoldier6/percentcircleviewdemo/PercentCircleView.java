@@ -36,6 +36,8 @@ public class PercentCircleView extends View {
 
     private float mCenterTextSize; // 中心百分比文字大小
 
+    private Paint mBigCirclePaint, mSectorPaint, mSmallCirclePaint, mTextPaint;
+
     public PercentCircleView(Context context) {
         this(context, null);
     }
@@ -46,6 +48,12 @@ public class PercentCircleView extends View {
 
     public PercentCircleView(Context context, @Nullable AttributeSet attrs, int defStyleAttr) {
         super(context, attrs, defStyleAttr);
+
+        mBigCirclePaint = new Paint();
+        mSectorPaint = new Paint();
+        mSmallCirclePaint = new Paint();
+        mTextPaint = new Paint();
+
         TypedArray typedArray = context.obtainStyledAttributes(attrs, R.styleable.PercentCircleView, defStyleAttr, 0);
         mRadius = typedArray.getDimensionPixelSize(R.styleable.PercentCircleView_radius, PxUtils.dpToPx(100, context));
         mStripWidth = typedArray.getDimension(R.styleable.PercentCircleView_stripWidth, PxUtils.dpToPx(30, context));
@@ -86,31 +94,27 @@ public class PercentCircleView extends View {
     protected void onDraw(Canvas canvas) {
         mEndAngle = (int) (mCurrentPercent * 3.6);
         // 绘制大圆
-        Paint bigCirclePaint = new Paint();
-        bigCirclePaint.setAntiAlias(true);
-        bigCirclePaint.setColor(mBigColor);
-        canvas.drawCircle(x, y, mRadius, bigCirclePaint);
+        mBigCirclePaint.setAntiAlias(true);
+        mBigCirclePaint.setColor(mBigColor);
+        canvas.drawCircle(x, y, mRadius, mBigCirclePaint);
 
         // 饼状图
-        Paint sectorPaint = new Paint();
-        sectorPaint.setColor(mSmallColor);
-        sectorPaint.setAntiAlias(true);
+        mSectorPaint.setColor(mSmallColor);
+        mSectorPaint.setAntiAlias(true);
         RectF rectF = new RectF(0, 0, mWidth, mHeight);
-        canvas.drawArc(rectF, 270, mEndAngle, true, sectorPaint);
+        canvas.drawArc(rectF, 270, mEndAngle, true, mSectorPaint);
 
         // 绘制小圆
-        Paint smallCirclePaint = new Paint();
-        smallCirclePaint.setColor(mBigColor);
-        smallCirclePaint.setAntiAlias(true);
-        canvas.drawCircle(x, y, mRadius - mStripWidth, smallCirclePaint);
+        mSmallCirclePaint.setColor(mBigColor);
+        mSmallCirclePaint.setAntiAlias(true);
+        canvas.drawCircle(x, y, mRadius - mStripWidth, mSmallCirclePaint);
 
         // 绘制文本
-        Paint textPaint = new Paint();
         String text = mCurrentPercent + "%";
-        textPaint.setTextSize(mCenterTextSize);
-        float textLength = textPaint.measureText(text);
-        textPaint.setColor(Color.WHITE);
-        canvas.drawText(text, x - textLength / 2, y, textPaint);
+        mTextPaint.setTextSize(mCenterTextSize);
+        float textLength = mTextPaint.measureText(text);
+        mTextPaint.setColor(Color.WHITE);
+        canvas.drawText(text, x - textLength / 2, y, mTextPaint);
     }
 
     // 外部设置百分比
