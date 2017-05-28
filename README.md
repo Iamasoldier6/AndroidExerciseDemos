@@ -2,6 +2,10 @@
 
 ### 更新日志：
 
+* 2017.05.28
+
+重温 Activity 生命周期的分析，更新 ActivityLifeCycleDemo。
+
 - 2017.03.20
 
 学习[一个炫字都不够？？！！！手把手带你打造 3D 自定义 view ](http://blog.csdn.net/wingichoy/article/details/50590051)，更新 ThreeDViewDemo。自此，关于自定义 View 的复习完毕，是时候自定义一波高质量的自定义 View 了。
