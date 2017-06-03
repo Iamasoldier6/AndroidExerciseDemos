@@ -4,8 +4,8 @@ import android.app.Notification;
 import android.app.PendingIntent;
 import android.app.Service;
 import android.content.Intent;
-import android.os.Binder;
 import android.os.IBinder;
+import android.os.RemoteException;
 import android.util.Log;
 
 /**
@@ -14,7 +14,7 @@ import android.util.Log;
 public class MyService extends Service {
 
     public static final String TAG = "MyService";
-    private MyBinder mBinder = new MyBinder();
+//    private MyBinder mBinder = new MyBinder();
 
     @Override
     public void onCreate() {
@@ -34,6 +34,12 @@ public class MyService extends Service {
                 .setContentText("这是通知的内容");
         Notification notification = builder.build();
         startForeground(1, notification);
+
+//        try {
+//            Thread.sleep(60000);
+//        } catch (InterruptedException e) {
+//            e.printStackTrace();
+//        }
 
         Log.d(TAG, "onCreate() executed");
         Log.d(TAG, "MyService thread id is " + Thread.currentThread().getId());
@@ -57,10 +63,26 @@ public class MyService extends Service {
         return mBinder;
     }
 
-    class MyBinder extends Binder {
-        public void startDownload() {
-            Log.d(TAG, "startDownload() executed");
-            // 执行具体的下载任务
+    MyAIDLService.Stub mBinder = new MyAIDLService.Stub() {
+
+        @Override
+        public String toUpperCase(String str) throws RemoteException {
+            if (str != null) {
+                return str.toUpperCase();
+            }
+            return null;
         }
-    }
+
+        @Override
+        public int plus(int a, int b) throws RemoteException {
+            return a + b;
+        }
+    };
+
+//    class MyBinder extends Binder {
+//        public void startDownload() {
+//            Log.d(TAG, "startDownload() executed");
+//            // 执行具体的下载任务
+//        }
+//    }
 }

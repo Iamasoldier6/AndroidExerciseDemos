@@ -21,6 +21,7 @@ public class MainActivity extends AppCompatActivity {
         NetworkImageView mNetworkImageView;
         mNetworkImageView = (NetworkImageView) findViewById(R.id.networkImageView);
         String url = "http://7xt0ac.com1.z0.glb.clouddn.com/AR.jpg";
+//        String url = "http://api.huceo.com/meinv/?key=b410647c85bc6dde5fe212497e74f26d&num=10";
 
         ImageLoader imageLoader = new ImageLoader(queue, new ImageLoader.ImageCache() {
 

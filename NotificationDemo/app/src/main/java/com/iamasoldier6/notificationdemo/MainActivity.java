@@ -123,3 +123,4 @@ public class MainActivity extends AppCompatActivity {
         notificationManager.notify(NOTIFICATION_ID_VISIBILITY, builder.build());
     }
 }
+

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btn_standard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="点击进入-standard"/>
+
+    <Button
+        android:id="@+id/btn_singletop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="点击进入-singleTop"/>
+
+    <Button
+        android:id="@+id/btn_singletask"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="点击进入-singleTask"/>
+
+    <Button
+        android:id="@+id/btn_singleinstance"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="点击进入-singleInstance"/>
+
+</LinearLayout>

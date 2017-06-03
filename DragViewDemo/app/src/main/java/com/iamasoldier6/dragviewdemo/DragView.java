@@ -38,17 +38,6 @@ public class DragView extends View {
     }
 
     @Override
-    public void computeScroll() {
-        super.computeScroll();
-        // 判断 Scroller 是否执行完毕
-        if (mScroller.computeScrollOffset()) {
-            ((View) getParent()).scrollTo(mScroller.getCurrX(), mScroller.getCurrY());
-            // 通过重绘来不断调用 computeScroll
-            invalidate();
-        }
-    }
-
-    @Override
     public boolean onTouchEvent(MotionEvent event) {
         int x = (int) event.getX();
         int y = (int) event.getY();
@@ -72,5 +61,16 @@ public class DragView extends View {
                 break;
         }
         return true;
+    }
+
+    @Override
+    public void computeScroll() {
+        super.computeScroll();
+        // 判断 Scroller 是否执行完毕
+        if (mScroller.computeScrollOffset()) {
+            ((View) getParent()).scrollTo(mScroller.getCurrX(), mScroller.getCurrY());
+            // 通过重绘来不断调用 computeScroll
+            invalidate();
+        }
     }
 }

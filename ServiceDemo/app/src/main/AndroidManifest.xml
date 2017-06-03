@@ -16,7 +16,13 @@
             </intent-filter>
         </activity>
 
-        <service android:name=".MyService"></service>
+        <service
+            android:name=".MyService"
+            android:process=":remote">
+            <intent-fliter>
+                <action android:name="com.iamasoldier6.servicedemo.MyAIDLService"/>
+            </intent-fliter>
+        </service>
     </application>
 
 </manifest>

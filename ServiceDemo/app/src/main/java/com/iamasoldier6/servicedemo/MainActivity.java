@@ -5,6 +5,7 @@ import android.content.Intent;
 import android.content.ServiceConnection;
 import android.os.Bundle;
 import android.os.IBinder;
+import android.os.RemoteException;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.View;
@@ -16,7 +17,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private Button stopServiceBtn;
     private Button bindServiceBtn;
     private Button unbindServiceBtn;
-    private MyService.MyBinder myBinder;
+//    private MyService.MyBinder myBinder;
+    private MyAIDLService myAIDLService;
 
     private ServiceConnection connection = new ServiceConnection() {
 
@@ -26,8 +28,17 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         @Override
         public void onServiceConnected(ComponentName name, IBinder service) {
-            myBinder = (MyService.MyBinder) service;
-            myBinder.startDownload();
+//            myBinder = (MyService.MyBinder) service;
+//            myBinder.startDownload();
+            myAIDLService = MyAIDLService.Stub.asInterface(service);
+            try {
+                int result = myAIDLService.plus(3, 5);
+                String upperStr = myAIDLService.toUpperCase("hello world");
+                Log.d("MyService", "result is " + result);
+                Log.d("MyService", "upperStr is " + upperStr);
+            } catch (RemoteException e) {
+                e.printStackTrace();
+            }
         }
     };
 
@@ -36,6 +47,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         Log.d("MyService", "MainActivity thread id is " + Thread.currentThread().getId());
+//        Log.d("MyService", "process id is " + Process.myPid());
 
         startServiceBtn = (Button) findViewById(R.id.btn_start_service);
         stopServiceBtn = (Button) findViewById(R.id.btn_stop_service);

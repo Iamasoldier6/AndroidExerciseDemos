@@ -2,9 +2,13 @@
 
 ### 更新日志：
 
+* 2017.06.03
+
+重温 Activity 启动模式的分析，更新 ActivityLaunchModeDemo 和 ActivityLaunchModeDemo2，具体分析见博客
+
 * 2017.05.28
 
-重温 Activity 生命周期的分析，更新 ActivityLifeCycleDemo。
+重温 Activity 生命周期的分析，更新 ActivityLifeCycleDemo，具体分析见博客[重温 Activity 分析一：生命周期](http://t.cn/RSbP3A4)。
 
 - 2017.03.20
 
