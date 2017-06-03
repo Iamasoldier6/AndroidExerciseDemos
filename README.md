@@ -4,7 +4,7 @@
 
 * 2017.06.03
 
-重温 Activity 启动模式的分析，更新 ActivityLaunchModeDemo 和 ActivityLaunchModeDemo2，具体分析见博客
+重温 Activity 启动模式的分析，更新 ActivityLaunchModeDemo 和 ActivityLaunchModeDemo2，**测试 singleInstance 模式需要两个 App 结合一起使用**，具体分析见博客[重温 Activity 分析二：启动模式](http://t.cn/RSilbmS)。
 
 * 2017.05.28
 
