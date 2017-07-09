@@ -4,6 +4,10 @@
 
 `无意间将以前提交 Demo 的备注信息污染了，好多变成了**重温 Activity 启动模式的 Demo 一**，可参照更新日志，待修复。`
 
+* 2017.07.09
+
+继前日重温 Fragment 的基本使用系列，更新 FragmentAndActivityChatDemo。
+
 * 2017.07.06
 
 重温 Fragment 的基本使用，更新 FragmentBackStackDemo。
