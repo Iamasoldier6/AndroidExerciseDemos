@@ -1,8 +1,6 @@
-package com.iamasoldier6.fragmentbackstackdemo;
+package com.iamasoldier6.fragmentandactivitychatdemo;
 
 import android.app.Fragment;
-import android.app.FragmentManager;
-import android.app.FragmentTransaction;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -11,7 +9,7 @@ import android.widget.Button;
 
 /**
  * @author: Iamasoldier6
- * @date: 2017/07/03
+ * @date: 2017/07/09
  */
 public class FragmentOne extends Fragment implements View.OnClickListener {
 
@@ -25,14 +23,23 @@ public class FragmentOne extends Fragment implements View.OnClickListener {
         return view;
     }
 
+    /**
+     * 转交给宿主 Activity 处理
+     *
+     * @param v
+     */
     @Override
     public void onClick(View v) {
-        FragmentTwo fragmentTwo = new FragmentTwo();
-        FragmentManager manager = getFragmentManager();
-        FragmentTransaction transaction = manager.beginTransaction();
-        transaction.replace(R.id.fl_content, fragmentTwo, "TWO");
-        transaction.addToBackStack(null);
-        transaction.commit();
+        if (getActivity() instanceof ButtonOneClickListener) {
+            ((ButtonOneClickListener) getActivity()).onButtonOneClick();
+        }
+    }
+
+    /**
+     * 按钮点击回调
+     */
+    public interface ButtonOneClickListener {
+        void onButtonOneClick();
     }
 
 }
