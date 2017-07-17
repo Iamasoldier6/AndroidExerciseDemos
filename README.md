@@ -4,6 +4,10 @@
 
 `无意间将以前提交 Demo 的备注信息污染了，好多变成了**重温 Activity 启动模式的 Demo 一**，可参照更新日志，待修复。`
 
+* 2017.07.17
+
+更新 EventBus 的使用 Demo，里面综合了 Service 与 Activity 之间的通信、 Activity 之间的通信、Fragment 之间的通信和 Fragment 与 Activity 之间的通信，即 EventBusDemo。
+
 * 2017.07.12
 
 更新重温 ViewPager 简单的基本使用 Demo，以便未来扩展至更复杂的使用，即 OriginViewPagerDemo。
