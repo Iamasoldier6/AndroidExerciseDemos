@@ -14,11 +14,11 @@
 
 * 2017.07.09
 
-继前日重温 Fragment 的基本使用系列，更新 Fragment 与 Activity 的通信 Demo，即 FragmentAndActivityChatDemo。
+继前日重温 Fragment 的基本使用系列，更新 Fragment 与 Activity 的通信 Demo，即 FragmentAndActivityChatDemo，具体分析见博客[重温 Fragment 分析二：使用及注意事项](http://t.cn/RK3BJOj)。
 
 * 2017.07.06
 
-重温 Fragment 的基本使用，更新 FragmentBackStackDemo。
+重温 Fragment 的基本使用，更新 FragmentBackStackDemo，具体分析见博客[重温 Fragment 分析二：使用及注意事项](http://t.cn/RK3BJOj)。
 
 * 2017.06.24
 
