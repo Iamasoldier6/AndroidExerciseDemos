@@ -4,6 +4,10 @@
 
 `无意间将以前提交 Demo 的备注信息污染了，好多变成了**重温 Activity 启动模式的 Demo 一**，可参照更新日志，待修复。`
 
+* 2017.08.24
+
+更新 Bundle 传值的基本使用 Demo，即 BundleDemo。
+
 * 2017.07.17
 
 更新 EventBus 的使用 Demo，里面综合了 Service 与 Activity 之间的通信、 Activity 之间的通信、Fragment 之间的通信和 Fragment 与 Activity 之间的通信，即 EventBusDemo，具体分析见博客[Android EventBus 使用小结](http://t.cn/R9tnAHo)。
