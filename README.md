@@ -6,7 +6,7 @@
 
 * 2017.08.24
 
-更新 Bundle 传值的基本使用 Demo，即 BundleDemo。
+更新 Bundle 传值的基本使用 Demo，即 BundleDemo，具体分析见博客[浅谈 Android 中的 Bundle](http://t.cn/RCuGBeC)。
 
 * 2017.07.17
 
