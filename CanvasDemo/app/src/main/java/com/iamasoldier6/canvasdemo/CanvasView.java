@@ -29,6 +29,7 @@ public class CanvasView extends View {
         initView();
     }
 
+    //
     private void initView() {
         mPaint = new Paint(Paint.ANTI_ALIAS_FLAG);
     }
