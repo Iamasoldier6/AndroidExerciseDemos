@@ -4,6 +4,10 @@
 
 `无意间将以前提交 Demo 的备注信息污染了，好多变成了**重温 Activity 启动模式的 Demo 一**，可参照更新日志，以 README 的更新日志为准，待修复。`
 
+* 2017.09.29
+
+更新 [Universal Image Loader](https://github.com/nostra13/Android-Universal-Image-Loader) 的简单使用 Demo，即 UniversalImageLoaderDemo。
+
 * 2017.09.17
 
 更新 DialogFragment 的基本示例 Demo，即 DialogFragmentDemo，具体分析见博客[浅谈 Android 中的 DialogFragment](http://t.cn/R0qgCVf)。
