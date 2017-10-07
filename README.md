@@ -6,7 +6,7 @@
 
 * 2017.09.29
 
-更新 [Universal Image Loader](https://github.com/nostra13/Android-Universal-Image-Loader) 的简单使用 Demo，即 UniversalImageLoaderDemo。
+更新 [Universal Image Loader](https://github.com/nostra13/Android-Universal-Image-Loader) 的简单使用 Demo，即 UniversalImageLoaderDemo，具体分析见博客[Android 图片加载之浅谈 Universal Image Loader](http://t.cn/ROAsjZg)。
 
 * 2017.09.17
 
