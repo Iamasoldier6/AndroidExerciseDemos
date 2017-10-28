@@ -2,6 +2,7 @@ package com.iamasoldier6.universalimageloaderdemo;
 
 import android.app.Application;
 
+import com.nostra13.universalimageloader.cache.memory.impl.WeakMemoryCache;
 import com.nostra13.universalimageloader.core.ImageLoader;
 import com.nostra13.universalimageloader.core.ImageLoaderConfiguration;
 
@@ -16,11 +17,11 @@ public class MyApplication extends Application {
         super.onCreate();
 
         // 配置 ImageLoader 的默认参数
-        ImageLoaderConfiguration configuration = ImageLoaderConfiguration.createDefault(this);
+//        ImageLoaderConfiguration configuration = ImageLoaderConfiguration.createDefault(this);
 
-//        ImageLoaderConfiguration configuration = new ImageLoaderConfiguration.Builder(this)
-//                .writeDebugLogs() // 打印 Log
-//                .build();
+        ImageLoaderConfiguration configuration = new ImageLoaderConfiguration.Builder(this)
+                .memoryCache(new WeakMemoryCache())
+                .build();
 
         ImageLoader.getInstance().init(configuration);
     }
