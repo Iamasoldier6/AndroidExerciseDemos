@@ -4,9 +4,17 @@
 
 `无意间将以前提交 Demo 的备注信息污染了，好多变成了**重温 Activity 启动模式的 Demo 一**，可参照更新日志，以 README 的更新日志为准，待修复。`
 
+* 2017.11.18
+
+更新好用的 RecyclerView 第三方库 [Groupie](https://github.com/lisawray/groupie) 的简单使用 Demo，即 GroupieDemo，具体分析见博客[解读好用的 RecyclerView 第三方库 Groupie](http://t.cn/RYGXmLn)。
+
+* 2017.11.03
+
+更新 [Glide](https://github.com/bumptech/glide) 的简单使用 Demo，即 GlideDemo，具体分析见博客 [Android 图片加载之浅谈 Glide](http://t.cn/RYGX5BO)。
+
 * 2017.09.29
 
-更新 [Universal Image Loader](https://github.com/nostra13/Android-Universal-Image-Loader) 的简单使用 Demo，即 UniversalImageLoaderDemo，具体分析见博客[Android 图片加载之浅谈 Universal Image Loader](http://t.cn/ROAsjZg)。
+更新 [Universal Image Loader](https://github.com/nostra13/Android-Universal-Image-Loader) 的简单使用 Demo，即 UniversalImageLoaderDemo，具体分析见博客 [Android 图片加载之浅谈 Universal Image Loader](http://t.cn/ROAsjZg)。
 
 * 2017.09.17
 
